@@ -16,14 +16,21 @@ body {
     min-height: 100vh;
 } 
 
+#header {
+    display: flex;
+    
+}
+
 #search {
     background: transparent;
     width: 700px;
 }
 
 #search h1 {
-    font-size: 80px;
+    font-size: 90px;
+    font-style: italic;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 #search h2 {
@@ -47,7 +54,8 @@ body {
 }
 
 .container h1 {
-    font-size: 40px;
+    font-size: 90px;
+    font-style: italic;
     text-align: center;
 }
 
@@ -114,6 +122,12 @@ button:active {
     background:rgba(255, 255, 255, 0.75);
 }
 
+.login {
+    font-size: 21px;
+    text-align: center;
+    margin-top: 80px;
+}
+
 .guest,
 .sign-up {
     font-size: 17px;
@@ -121,12 +135,14 @@ button:active {
     margin-top: 20px;
 }
 
+.login a, 
 .guest a,
 .sign-up a {
     color: rgba(255, 255, 255);
     text-decoration: none;
 }
 
+.login a:hover,
 .guest a:hover,
 .sign-up a:hover {
     color: rgba(255, 255, 255, 0.75);
