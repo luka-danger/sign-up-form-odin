@@ -55,7 +55,7 @@ input::placeholder {
 .remember-forget {
     display: flex;
     justify-content: space-around;
-    font-size: 17px;
+    font-size: 15px;
     margin: -15px 0 15px;
 }
 
@@ -91,17 +91,20 @@ button:active {
     background:rgba(255, 255, 255, 0.75);
 }
 
+.test-drive,
 .sign-up {
     font-size: 17px;
     text-align: center;
     margin-top: 20px;
 }
 
+.test-drive a,
 .sign-up a {
     color: rgba(255, 255, 255);
     text-decoration: none;
 }
 
+.test-drive a:hover,
 .sign-up a:hover {
     color: rgba(255, 255, 255, 0.75);
     text-decoration: underline;
