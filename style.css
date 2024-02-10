@@ -83,9 +83,7 @@ body {
     text-align: center;
 }
 
-#sign-up .input input {
-    background: rgba(225, 225, 225, 0.35);
-}
+
 
 input::placeholder {
     color: white;
