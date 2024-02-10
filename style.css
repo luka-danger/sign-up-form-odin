@@ -1,4 +1,5 @@
 body {
-    background-image: url(mountains.jpg);
+    background-image: url("mountains.jpg");
     background-size: cover;
-}
+} 
+
