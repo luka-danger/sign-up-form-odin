@@ -20,6 +20,6 @@ The full challenge description can be found here: https://www.theodinproject.com
 
 ![Forgot Password](screenshots/forgot.png)
 
-
+![Reset Password](screenshots/reset.png)
 
 
