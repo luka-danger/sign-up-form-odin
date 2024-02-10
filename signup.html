@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet"> 
+    <script src="script.js" defer></script>
     <title>Alpine Sign Up</title>
 </head>
 <body>
@@ -35,14 +36,21 @@
             </div>
 
             <div class="input">
-                <input type="password" 
+                <input 
+                name="password"
+                type="password" 
                 placeholder="Enter a Password" 
+                id="password"
+                onChange="onChange()"
                 required>
             </div>
 
             <div class="input">
-                <input type="password" 
+                <input 
+                name="confirm"
+                type="password" 
                 placeholder="Re-enter Password" 
+                onChange="onChange()"
                 required>
             </div>
 
