@@ -2,5 +2,12 @@ window.addEventListener('load', (event) => {
     console.log('The page has fully loaded');
 });
 
+const submit = document.querySelector('#submit');
 
-alert("This site is still under construction! Thank you for your patience!")
+submit.addEventListener('click', () => {
+    alert("This site is still under construction! Thank you for your patience!")
+});
+
+
+
+
