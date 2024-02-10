@@ -17,6 +17,8 @@ body {
     width: 500px;
     background-color: rgba(225, 225, 225, 0.35);
     color: white;
+    border-radius: 20px;
+    padding: 30px 40px;
 }
 
 .container h1 {
