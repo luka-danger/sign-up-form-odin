@@ -77,6 +77,10 @@ body {
     text-align: center;
 }
 
+#sign-up .input input {
+    background: rgba(225, 225, 225, 0.35);
+}
+
 input::placeholder {
     color: white;
     text-align: center;  
@@ -127,7 +131,7 @@ button:active {
     margin-top: 80px;
 }
 
-.guest,
+.search,
 .sign-up {
     font-size: 17px;
     text-align: center;
@@ -135,14 +139,14 @@ button:active {
 }
 
 .login a, 
-.guest a,
+.search a,
 .sign-up a {
     color: rgba(255, 255, 255);
     text-decoration: none;
 }
 
 .login a:hover,
-.guest a:hover,
+.search a:hover,
 .sign-up a:hover {
     color: rgba(255, 255, 255, 0.75);
     text-decoration: underline;
