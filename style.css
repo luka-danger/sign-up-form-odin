@@ -55,10 +55,12 @@ input::placeholder {
 
 .remember-forget a {
     color: rgba(255, 255, 255);
+    text-decoration: none;
 }
 
 .remember-forget a:hover {
     color: rgba(255, 255, 255, 0.75);
+    text-decoration: underline;
 }
 
 .button {
@@ -71,3 +73,20 @@ input::placeholder {
     font-size: 20px;
     font-weight: 500;
 }
+
+.sign-up {
+    font-size: 17px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sign-up a {
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+}
+
+.sign-up a:hover {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: underline;
+}
+
